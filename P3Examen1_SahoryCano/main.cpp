@@ -113,6 +113,7 @@ string menu_genero_pelicula() {
     int opcion_genero = 0;
     string genero;
     while (continuar) {
+    	cout << "-----Generos------";
         cout << "1. Ciencia Ficcion";
         cout << "2. Accion";
         cout << "3. Musical";
