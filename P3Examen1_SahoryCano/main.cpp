@@ -50,6 +50,11 @@ int main(int argc, char** argv) {
 			}
            
             case 3:{
+            	registro_de_peliculas->imprimir_peliculas_por_valoracion();
+                int posicion = 0;
+                cout << endl << "Seleccione la posición de la pelicula que desea eliminar: ";
+                cin>>posicion;
+                //registro_de_peliculas-> lista_peliculas.erase(posicion);
 				break;
 			}
 				
